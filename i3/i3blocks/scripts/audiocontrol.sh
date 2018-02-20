@@ -11,14 +11,14 @@ else
 fi
 
 if [[ $BLOCK_BUTTON -eq 1 ]]; then
-    /etc/nixos/nixos.d/pulseaudio/pamv.sh
+    ~/.i3/pulseaudio/pamv.sh
     # mute
     # set icon to mute
 elif [[ $BLOCK_BUTTON -eq 4 ]]; then
-    /etc/nixos/nixos.d/pulseaudio/padv.sh
+    ~/.i3/pulseaudio/padv.sh
     # volume down
 elif [[ $BLOCK_BUTTON -eq 5 ]]; then
-    /etc/nixos/nixos.d/pulseaudio/paiv.sh
+    ~/.i3/pulseaudio/paiv.sh
     # volume up
 fi
 
